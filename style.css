@@ -1,0 +1,88 @@
+body{
+    
+    background-color: rgb(255, 255, 255);
+    margin: 0cm;
+    font-family: sans-serif;
+}
+.logo{
+    width:10%;
+    
+    
+}
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+
+}
+
+nav ul a:hover{
+    color: rgb(46, 174, 212);
+}
+
+.del{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.del h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+span{
+    color: rgb(243, 156, 18);
+}
+.del p{
+    font-weight: 500;
+
+}
+.del a{
+    text-decoration: none;
+    background-image: linear-gradient(70deg, rgb(236, 112, 62), rgb(209, 80, 20));
+    padding: 5px 10px;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 30px 0;
+    color: whitesmoke;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.images img{
+    position:absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom is, left is;
+}
+.images:hover .shape{
+    bottom: 37px;
+}
+.images:hover .men{
+    left: 45%;
+}
+.hero{
+    height: 700px;
+}
